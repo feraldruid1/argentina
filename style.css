@@ -10,13 +10,19 @@ body {
     align-items: center;
 }
 div {
-    width: 800px;
-    height: 600px;
-    background-color: white;
+    width: 470px;
+    height: 300px;
+    background-color: #74acdf;
+    
 }
 div::before {
+    top: 42vh;
+    position: absolute;
     content: "";
-    background-color: red;
-    width: 600px;
-    height: 200px;
+    background-color: white;
+    width: 470px;
+    height: 100px;
+    background-image: url("Sun_of_May.png");
+    background-position: center;
+    background-repeat: no-repeat;
 }
