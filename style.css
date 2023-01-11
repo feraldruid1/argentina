@@ -13,14 +13,14 @@ div {
     width: 470px;
     height: 300px;
     background-color: #74acdf;
- 
+    position: relative;
     
 }
 div::after {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 42vh;
+    top: 100px;
     position: absolute;
     content: url("Sun_of_May.png");
     background-color: white;
