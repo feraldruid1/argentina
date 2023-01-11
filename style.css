@@ -13,16 +13,16 @@ div {
     width: 470px;
     height: 300px;
     background-color: #74acdf;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-div::before {
+div::after {
     top: 42vh;
     position: absolute;
     content: "";
     background-color: white;
     width: 470px;
     height: 100px;
-    background-image: url("Sun_of_May.png");
-    background-position: center;
     background-repeat: no-repeat;
 }
